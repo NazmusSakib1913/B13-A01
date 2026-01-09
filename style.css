@@ -123,3 +123,76 @@ header nav button {
     border-radius: 4px;
 }
 
+.container {
+          
+            width: 100%;
+            text-align: center;
+        }
+
+        .header {
+            margin-bottom: 60px;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            font-weight: 800;
+            color: #021128;
+            margin-bottom: 16px;
+            letter-spacing: -1px;
+        }
+
+        .header p {
+            font-size: 18px;
+            color: #64748b;
+            font-weight: 400;
+        }
+
+        .grid {
+           display: flex;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+         
+            justify-content: center;
+        }
+
+        .card {
+            background: #fff;
+            border: 1px solid #f1f5f9;
+            border-radius: 12px;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+        }
+
+        .icon-circle {
+            width: 60px;
+            height: 60px;
+            background-color: #F95555;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        .icon-circle img {
+            width: 28px;
+            height: auto;
+            display: block;
+        }
+
+        .card h3 {
+            font-size: 20px;
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            font-size: 15px;
+            color: #64748b;
+            line-height: 1.5;
+            max-width: 240px;
+        }
